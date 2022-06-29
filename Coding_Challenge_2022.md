@@ -8,7 +8,7 @@ Konsul-Smidt-Straße 20\break
 
 ## Fullstack Development
 
-Image a small and a large cube. A small cube can be placed inside a large cube. Four small cubes fit in a large cube. Each cube has __an unique ID (String)__, an __optional owner ID (String or null)__ as well as __a type (large or small)__. Please implement the following tasks in TypeScript without using additional packages (apart from Jest and TypeScript).
+Imagine a small and a large cube. A small cube can be placed inside a large cube. Four small cubes fit in a large cube. Each cube has __an unique ID (String)__, an __optional owner ID (String or null)__ as well as __a type (large or small)__. Please implement the following tasks in TypeScript without using additional packages (apart from Jest and TypeScript).
 
 Try to implement the tasks with the tools that TypeScript provides. Think of the tasks as an API for other developers.
 
