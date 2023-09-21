@@ -1,6 +1,6 @@
 \begin{center}
 RYTLE GmbH\break
-Konsul-Smidt-Straße 20\break
+Konsul-Smidt-Straße 23\break
 28217 Bremen
 \end{center}
 
@@ -12,7 +12,7 @@ Imagine a small and a large cube. A small cube can be placed inside a large cube
 
 Think of the tasks as an API for other developers. Storage of the cubes and presentation are outside of the scope of the challenge.
 
-1. Write an asynchronous stand-alone function that can create cubes. The first parameter should be the type of the cube (small or large). The second parameter is an optional owner ID (think of it as referring to an external entity, _not_ the parent). The last parameter is an optional array with unique IDs for creating small cubes (recursive creation with a maximal depth of 1). Consider that a cube that is inside another cube inherits its owner.
+1. Write an asynchronous stand-alone function that can create cubes. The first parameter should be the type of the cube (small or large). The second parameter is the ID of the cube itself. The third parameter is an optional owner ID (think of it as referring to an external entity, _not_ the parent). The last parameter is an optional array with unique IDs for creating small cubes (recursive creation with a maximal depth of 1). Consider that a cube that is inside another cube inherits its owner.
 
     a. The function to be implemented should have this signature:
 
